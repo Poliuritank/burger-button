@@ -22,13 +22,11 @@
     cursor: pointer;
 }
 
-
 .burger-container {
     position: relative;
     top: 185px;
- 
-
 }    
+
 .burger-container>span {
     width: 100%;
     height: 30px;
@@ -36,7 +34,6 @@
     background-color: black;
     position: absolute;
     box-shadow: 0 0 60px 0px rgb(0, 0, 0);
-    
 }
 
 .burger-container>span::before {
@@ -72,10 +69,10 @@
     transform: rotate(-45deg);
     transition: 0.3s;
 }
+
 .active .burger-container>span::after {
     transform: rotate(90deg);
     transition: 0.3s;
     width: 100%;
     right: 0;
-
 }
