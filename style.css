@@ -22,21 +22,6 @@
     cursor: pointer;
 }
 
-.container:active {
-    
-    animation: flicker 0.8s infinite;
-    box-shadow: 0 0 60px 0px rgb(0, 0, 0);
-}
-
-.active:active {
-
-    animation: flicker 0.8s infinite;
-    box-shadow: 0 0 60px 0px rgb(0, 0, 0);
-}
-@keyframes flicker {
-    from { opacity: 1; /* Непрозрачный текст */ }
-    to { opacity: 0; /* Прозрачный текст */ }
-  }
 
 .burger-container {
     position: relative;
