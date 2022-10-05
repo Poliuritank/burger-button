@@ -36,7 +36,7 @@
 @keyframes flicker {
     from { opacity: 1; /* Непрозрачный текст */ }
     to { opacity: 0; /* Прозрачный текст */ }
-  } */
+  }  */
 
 .burger-container {
     position: relative;
